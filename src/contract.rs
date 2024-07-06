@@ -8,7 +8,7 @@ struct Wallet {
 }
 
 static mut WALLETS: Option<HashMap<String, Wallet>> = None;
-
+ 
 #[init]
 fn init() {
     unsafe {
